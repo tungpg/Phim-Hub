@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		554530711636D67D00A5112B /* PHFilmDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554530701636D67D00A5112B /* PHFilmDetailViewController.m */; };
+		55A706531635A03100576A26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A706521635A03100576A26 /* UIKit.framework */; };
+		55A706551635A03100576A26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A706541635A03100576A26 /* Foundation.framework */; };
+		55A706571635A03100576A26 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A706561635A03100576A26 /* CoreGraphics.framework */; };
+		55A7065D1635A03100576A26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55A7065B1635A03100576A26 /* InfoPlist.strings */; };
+		55A7065F1635A03100576A26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A7065E1635A03100576A26 /* main.m */; };
+		55A706631635A03100576A26 /* PHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A706621635A03100576A26 /* PHAppDelegate.m */; };
+		55A706651635A03100576A26 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A706641635A03100576A26 /* Default.png */; };
+		55A706671635A03100576A26 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A706661635A03100576A26 /* Default@2x.png */; };
+		55A706691635A03100576A26 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A706681635A03100576A26 /* Default-568h@2x.png */; };
+		55A7066C1635A03100576A26 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A7066A1635A03100576A26 /* MainStoryboard_iPhone.storyboard */; };
+		55A7066F1635A03100576A26 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A7066D1635A03100576A26 /* MainStoryboard_iPad.storyboard */; };
+		55A7067D1635A54C00576A26 /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A7067A1635A54C00576A26 /* JASidePanelController.m */; };
+		55A7067E1635A54C00576A26 /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A7067C1635A54C00576A26 /* UIViewController+JASidePanel.m */; };
+		55A706811635A5E900576A26 /* PHSidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A706801635A5E900576A26 /* PHSidePanelController.m */; };
+		55A706851635A98A00576A26 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A706841635A98A00576A26 /* SystemConfiguration.framework */; };
+		55A706891635A9C100576A26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A706881635A9C100576A26 /* QuartzCore.framework */; };
+		9C13A4551639455C00048C0A /* LogoCAD.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C13A4541639455C00048C0A /* LogoCAD.png */; };
+		9C9D2E211636676000C2F68E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C9D2E201636676000C2F68E /* MediaPlayer.framework */; };
+		9C9D2E2716366A4600C2F68E /* PHVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9D2E2616366A4600C2F68E /* PHVideoPlayerViewController.m */; };
+		9CAB545316364CE900235724 /* The-Amazing-Spider-Man-2012.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9CAB545216364CE900235724 /* The-Amazing-Spider-Man-2012.jpg */; };
+		9CAB545616364D5200235724 /* PHPosterViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAB545516364D5200235724 /* PHPosterViewCell.m */; };
+		9CAB545A16364FCF00235724 /* PHFilm.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAB545916364FCF00235724 /* PHFilm.m */; };
+		9CD93E5A1636262300A82C3B /* PHLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD93E591636262300A82C3B /* PHLeftViewController.m */; };
+		9CD93E6316362F6800A82C3B /* topbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD93E6216362F6800A82C3B /* topbar.png */; };
+		9CD93E6A1636422700A82C3B /* PHCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD93E691636422700A82C3B /* PHCenterViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5545306F1636D67D00A5112B /* PHFilmDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHFilmDetailViewController.h; sourceTree = "<group>"; };
+		554530701636D67D00A5112B /* PHFilmDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHFilmDetailViewController.m; sourceTree = "<group>"; };
+		55A7064E1635A03100576A26 /* Phim Hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phim Hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A706521635A03100576A26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55A706541635A03100576A26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55A706561635A03100576A26 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55A7065A1635A03100576A26 /* Phim Hub-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Phim Hub-Info.plist"; sourceTree = "<group>"; };
+		55A7065C1635A03100576A26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55A7065E1635A03100576A26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55A706601635A03100576A26 /* Phim Hub-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Phim Hub-Prefix.pch"; sourceTree = "<group>"; };
+		55A706611635A03100576A26 /* PHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHAppDelegate.h; sourceTree = "<group>"; };
+		55A706621635A03100576A26 /* PHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHAppDelegate.m; sourceTree = "<group>"; };
+		55A706641635A03100576A26 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		55A706661635A03100576A26 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		55A706681635A03100576A26 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		55A7066B1635A03100576A26 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		55A7066E1635A03100576A26 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		55A706791635A54C00576A26 /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JASidePanelController.h; path = JASidePanel/JASidePanelController.h; sourceTree = "<group>"; };
+		55A7067A1635A54C00576A26 /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JASidePanelController.m; path = JASidePanel/JASidePanelController.m; sourceTree = "<group>"; };
+		55A7067B1635A54C00576A26 /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+JASidePanel.h"; path = "JASidePanel/UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
+		55A7067C1635A54C00576A26 /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+JASidePanel.m"; path = "JASidePanel/UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
+		55A7067F1635A5E900576A26 /* PHSidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHSidePanelController.h; sourceTree = "<group>"; };
+		55A706801635A5E900576A26 /* PHSidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHSidePanelController.m; sourceTree = "<group>"; };
+		55A706821635A96200576A26 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		55A706841635A98A00576A26 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		55A706861635A9A600576A26 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		55A706881635A9C100576A26 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9C13A4541639455C00048C0A /* LogoCAD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoCAD.png; sourceTree = "<group>"; };
+		9C9D2E201636676000C2F68E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9C9D2E2516366A4600C2F68E /* PHVideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHVideoPlayerViewController.h; sourceTree = "<group>"; };
+		9C9D2E2616366A4600C2F68E /* PHVideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHVideoPlayerViewController.m; sourceTree = "<group>"; };
+		9CAB545216364CE900235724 /* The-Amazing-Spider-Man-2012.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The-Amazing-Spider-Man-2012.jpg"; sourceTree = "<group>"; };
+		9CAB545416364D5200235724 /* PHPosterViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHPosterViewCell.h; sourceTree = "<group>"; };
+		9CAB545516364D5200235724 /* PHPosterViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHPosterViewCell.m; sourceTree = "<group>"; };
+		9CAB545816364FCF00235724 /* PHFilm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHFilm.h; sourceTree = "<group>"; };
+		9CAB545916364FCF00235724 /* PHFilm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHFilm.m; sourceTree = "<group>"; };
+		9CD93E581636262300A82C3B /* PHLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHLeftViewController.h; sourceTree = "<group>"; };
+		9CD93E591636262300A82C3B /* PHLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHLeftViewController.m; sourceTree = "<group>"; };
+		9CD93E6216362F6800A82C3B /* topbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = topbar.png; path = assets/topbar.png; sourceTree = "<group>"; };
+		9CD93E681636422700A82C3B /* PHCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHCenterViewController.h; sourceTree = "<group>"; };
+		9CD93E691636422700A82C3B /* PHCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHCenterViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55A7064B1635A03100576A26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9D2E211636676000C2F68E /* MediaPlayer.framework in Frameworks */,
+				55A706891635A9C100576A26 /* QuartzCore.framework in Frameworks */,
+				55A706851635A98A00576A26 /* SystemConfiguration.framework in Frameworks */,
+				55A706531635A03100576A26 /* UIKit.framework in Frameworks */,
+				55A706551635A03100576A26 /* Foundation.framework in Frameworks */,
+				55A706571635A03100576A26 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55A706431635A03100576A26 = {
+			isa = PBXGroup;
+			children = (
+				9C9D2E201636676000C2F68E /* MediaPlayer.framework */,
+				55A706581635A03100576A26 /* Phim Hub */,
+				55A706511635A03100576A26 /* Frameworks */,
+				55A7064F1635A03100576A26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55A7064F1635A03100576A26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55A7064E1635A03100576A26 /* Phim Hub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55A706511635A03100576A26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55A706881635A9C100576A26 /* QuartzCore.framework */,
+				55A706861635A9A600576A26 /* MobileCoreServices.framework */,
+				55A706841635A98A00576A26 /* SystemConfiguration.framework */,
+				55A706821635A96200576A26 /* CFNetwork.framework */,
+				55A706521635A03100576A26 /* UIKit.framework */,
+				55A706541635A03100576A26 /* Foundation.framework */,
+				55A706561635A03100576A26 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55A706581635A03100576A26 /* Phim Hub */ = {
+			isa = PBXGroup;
+			children = (
+				9CAB545716364FB800235724 /* DTO */,
+				55A706781635A50E00576A26 /* JASidePanel */,
+				55A706611635A03100576A26 /* PHAppDelegate.h */,
+				55A706621635A03100576A26 /* PHAppDelegate.m */,
+				55A7066A1635A03100576A26 /* MainStoryboard_iPhone.storyboard */,
+				55A7066D1635A03100576A26 /* MainStoryboard_iPad.storyboard */,
+				55A706591635A03100576A26 /* Supporting Files */,
+				55A7067F1635A5E900576A26 /* PHSidePanelController.h */,
+				55A706801635A5E900576A26 /* PHSidePanelController.m */,
+				9CD93E581636262300A82C3B /* PHLeftViewController.h */,
+				9CD93E591636262300A82C3B /* PHLeftViewController.m */,
+				9CD93E681636422700A82C3B /* PHCenterViewController.h */,
+				9CD93E691636422700A82C3B /* PHCenterViewController.m */,
+				9CAB545416364D5200235724 /* PHPosterViewCell.h */,
+				9CAB545516364D5200235724 /* PHPosterViewCell.m */,
+				9C9D2E2516366A4600C2F68E /* PHVideoPlayerViewController.h */,
+				9C9D2E2616366A4600C2F68E /* PHVideoPlayerViewController.m */,
+				5545306F1636D67D00A5112B /* PHFilmDetailViewController.h */,
+				554530701636D67D00A5112B /* PHFilmDetailViewController.m */,
+			);
+			path = "Phim Hub";
+			sourceTree = "<group>";
+		};
+		55A706591635A03100576A26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CD93E5E16362E6D00A82C3B /* assets */,
+				55A7065A1635A03100576A26 /* Phim Hub-Info.plist */,
+				55A7065B1635A03100576A26 /* InfoPlist.strings */,
+				55A7065E1635A03100576A26 /* main.m */,
+				55A706601635A03100576A26 /* Phim Hub-Prefix.pch */,
+				55A706641635A03100576A26 /* Default.png */,
+				55A706661635A03100576A26 /* Default@2x.png */,
+				55A706681635A03100576A26 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55A706781635A50E00576A26 /* JASidePanel */ = {
+			isa = PBXGroup;
+			children = (
+				55A706791635A54C00576A26 /* JASidePanelController.h */,
+				55A7067A1635A54C00576A26 /* JASidePanelController.m */,
+				55A7067B1635A54C00576A26 /* UIViewController+JASidePanel.h */,
+				55A7067C1635A54C00576A26 /* UIViewController+JASidePanel.m */,
+			);
+			name = JASidePanel;
+			sourceTree = "<group>";
+		};
+		9CAB545016364CC000235724 /* poster */ = {
+			isa = PBXGroup;
+			children = (
+				9CAB545216364CE900235724 /* The-Amazing-Spider-Man-2012.jpg */,
+			);
+			name = poster;
+			sourceTree = "<group>";
+		};
+		9CAB545716364FB800235724 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				9CAB545816364FCF00235724 /* PHFilm.h */,
+				9CAB545916364FCF00235724 /* PHFilm.m */,
+			);
+			name = DTO;
+			sourceTree = "<group>";
+		};
+		9CD93E5E16362E6D00A82C3B /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				9C13A4541639455C00048C0A /* LogoCAD.png */,
+				9CAB545016364CC000235724 /* poster */,
+				9CD93E5F16362E7900A82C3B /* iphone */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		9CD93E5F16362E7900A82C3B /* iphone */ = {
+			isa = PBXGroup;
+			children = (
+				9CD93E6216362F6800A82C3B /* topbar.png */,
+			);
+			name = iphone;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55A7064D1635A03100576A26 /* Phim Hub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A706751635A03100576A26 /* Build configuration list for PBXNativeTarget "Phim Hub" */;
+			buildPhases = (
+				55A7064A1635A03100576A26 /* Sources */,
+				55A7064B1635A03100576A26 /* Frameworks */,
+				55A7064C1635A03100576A26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Phim Hub";
+			productName = "Phim Hub";
+			productReference = 55A7064E1635A03100576A26 /* Phim Hub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55A706451635A03100576A26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PH;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "PG Co.ltd";
+			};
+			buildConfigurationList = 55A706481635A03100576A26 /* Build configuration list for PBXProject "Phim Hub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55A706431635A03100576A26;
+			productRefGroup = 55A7064F1635A03100576A26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55A7064D1635A03100576A26 /* Phim Hub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55A7064C1635A03100576A26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A7065D1635A03100576A26 /* InfoPlist.strings in Resources */,
+				55A706651635A03100576A26 /* Default.png in Resources */,
+				55A706671635A03100576A26 /* Default@2x.png in Resources */,
+				55A706691635A03100576A26 /* Default-568h@2x.png in Resources */,
+				55A7066C1635A03100576A26 /* MainStoryboard_iPhone.storyboard in Resources */,
+				55A7066F1635A03100576A26 /* MainStoryboard_iPad.storyboard in Resources */,
+				9CD93E6316362F6800A82C3B /* topbar.png in Resources */,
+				9CAB545316364CE900235724 /* The-Amazing-Spider-Man-2012.jpg in Resources */,
+				9C13A4551639455C00048C0A /* LogoCAD.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55A7064A1635A03100576A26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A7065F1635A03100576A26 /* main.m in Sources */,
+				55A706631635A03100576A26 /* PHAppDelegate.m in Sources */,
+				55A7067D1635A54C00576A26 /* JASidePanelController.m in Sources */,
+				55A7067E1635A54C00576A26 /* UIViewController+JASidePanel.m in Sources */,
+				55A706811635A5E900576A26 /* PHSidePanelController.m in Sources */,
+				9CD93E5A1636262300A82C3B /* PHLeftViewController.m in Sources */,
+				9CD93E6A1636422700A82C3B /* PHCenterViewController.m in Sources */,
+				9CAB545616364D5200235724 /* PHPosterViewCell.m in Sources */,
+				9CAB545A16364FCF00235724 /* PHFilm.m in Sources */,
+				9C9D2E2716366A4600C2F68E /* PHVideoPlayerViewController.m in Sources */,
+				554530711636D67D00A5112B /* PHFilmDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55A7065B1635A03100576A26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55A7065C1635A03100576A26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55A7066A1635A03100576A26 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55A7066B1635A03100576A26 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		55A7066D1635A03100576A26 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55A7066E1635A03100576A26 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55A706731635A03100576A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55A706741635A03100576A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55A706761635A03100576A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Phim Hub/Phim Hub-Prefix.pch";
+				INFOPLIST_FILE = "Phim Hub/Phim Hub-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55A706771635A03100576A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Phim Hub/Phim Hub-Prefix.pch";
+				INFOPLIST_FILE = "Phim Hub/Phim Hub-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55A706481635A03100576A26 /* Build configuration list for PBXProject "Phim Hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A706731635A03100576A26 /* Debug */,
+				55A706741635A03100576A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A706751635A03100576A26 /* Build configuration list for PBXNativeTarget "Phim Hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A706761635A03100576A26 /* Debug */,
+				55A706771635A03100576A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55A706451635A03100576A26 /* Project object */;
+}
